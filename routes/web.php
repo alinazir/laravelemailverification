@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','User@index');
+Route::post('Registered','User@Registered');
+Route::get('Verify','User@Verify');
+Route::get('Autherized/{token}','User@Autherized')->name('EmailAuthentication');
+Route::get('LoginUser','User@loginview')->name('loginpage');
+Route::post('login','User@login');
+Route::get('AccountVerification','User@AccountVerifyError')->name('verifyFirst');

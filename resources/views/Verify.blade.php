@@ -15,13 +15,14 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <a href="/logout" class="btn btn-info" style="float:right">
-          Logout
-        </a>
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-9">
+               <h3 class="text-danger">Email sent on your provided email addredd. Please Verify your email</h3>
+           </div>
+        </div>
 
-    </div>
-
+      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

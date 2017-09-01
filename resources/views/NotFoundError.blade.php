@@ -15,13 +15,10 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <a href="/logout" class="btn btn-info" style="float:right">
-          Logout
-        </a>
+     <div class="container">
+       <h1 class="text-warning">The page you are looking for is not found</h1>
 
-    </div>
-
+     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

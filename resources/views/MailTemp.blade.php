@@ -15,13 +15,19 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <a href="/logout" class="btn btn-info" style="float:right">
-          Logout
-        </a>
+       <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <h1 class="text-info">Eshop</h1>
+               <h3>Thanks to register with us! to Verify you Account Please Click  followinf link! </h3>
+              <a href="{{route('EmailAuthentication',$token)}}">Verify me</a>
 
-    </div>
 
+            </div>
+
+          </div>
+
+       </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
